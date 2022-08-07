@@ -1,0 +1,357 @@
+body{
+    background-color: hsl(270,20%,96%);;
+    margin:0;
+}
+
+.top-layer{
+    height: 52.6em;
+    width: 30em;
+    border-bottom-right-radius: 25em;
+    background:linear-gradient(0deg, hsl(293,100%,63%) ,hsl(264,100%,61%));
+}
+
+.phone-layer{
+    height:45.9em;
+    width: 24em;
+    background:hsl(0,0%,100%);
+    position:absolute;
+    margin-top:5.4em;
+    margin-left:23.5em;
+    border-radius:3em;
+}
+
+.first-layer{
+    height:6em;
+    width: 22em;
+    background:linear-gradient(240deg, hsl(293,100%,63%) ,hsl(264,100%,61%));
+    margin-top:1.2em;
+    margin-left:1em;
+    border-top-right-radius:1.5em;
+    border-top-left-radius:1.5em;
+    border-bottom-right-radius:0.3em;
+    border-bottom-left-radius:0.3em;
+}
+
+.second-layer{
+    background-color: hsl(270,20%,96%);
+    height:37.7em;
+    width:22em;
+    margin-left: 1em;
+    border-bottom-right-radius: 1.8em;
+    border-bottom-left-radius: 1.8em;
+}
+
+.first-img{
+    height:2.3em;
+    width: 2.3em;
+    border-radius: 1.2em;
+    margin-top:2.6em;
+    margin-left:2.4em;
+    border: white solid 0.1em;
+}
+
+#name-text{
+    font-family:'Rubik',sans-serif;
+    color:white;
+    font-weight: 600;
+    margin-inline-start: 4.2em;
+    margin-block-start: -1.9em;
+    font-size: 1.3em;
+}
+
+#about-text{
+    font-family: 'Rubik',sans-serif;
+    color:white;
+    font-weight:200;
+    margin-inline-start:9.4em;
+    margin-block-start: -1.9em;
+    font-size: 0.6em;
+}
+
+.first-chatbox{
+    border-top-left-radius: 1.2em;
+    border-top-right-radius: 1.1em;
+    border-bottom-left-radius: 0.2em;
+    border-bottom-right-radius: 1.1em;
+    height: 3em;
+    width: 11.9em;
+    background-color: hsl(206,6%,79%);
+    position: absolute;
+    margin-top: 1.2em;
+    margin-left: 1.7em;
+}
+
+#first-text{
+    font-family:'Rubik',sans-serif;
+    color:hsl(276,55%,52%);
+    font-size: 0.8em;
+    margin-block-start: 0.6em;
+    margin-inline-start: 1.7em;
+
+}
+
+.third-layer{
+    background-color:white;
+    height:2.7em;
+    width: 12em;
+    margin-top:-6.8em;
+    margin-left:5.6em;
+    border-radius: 3.7em;
+}
+
+.second-chatbox{
+    border-top-left-radius: 1.2em;
+    border-top-right-radius: 1.1em;
+    border-bottom-left-radius: 0.2em;
+    border-bottom-right-radius: 1.1em;
+    height: 3em;
+    width: 11.9em;
+    background-color: hsl(206,6%,79%);
+    position: absolute;
+    margin-top: -32.9em;
+    margin-left: 1.7em;
+}
+
+#second-text{
+    font-family:'Rubik',sans-serif;
+    color:hsl(276,55%,52%);
+    font-size: 0.8em;
+    margin-block-start: 0.8em;
+    margin-inline-start: 1em;
+}
+
+#dog1-img{
+    height: 3.4em;
+    width: 3.4em;
+    border-radius: 1em;
+}
+
+#dog2-img{
+    height: 3.4em;
+    width: 3.4em;
+    border-radius: 1em;
+}
+
+#dog3-img{
+    height: 3.4em;
+    width: 3.4em;
+    border-radius: 1em;
+}
+
+.pic{
+    height:3em;
+    margin-left: 11.7em;
+    margin-top:-28.7em;
+}
+
+.third-chatbox{
+    border-top-left-radius: 1.1em;
+    border-top-right-radius: 1.2em;
+    border-bottom-left-radius: 1.1em;
+    border-bottom-right-radius: 0.2em;
+    height: 3em;
+    width: 11.7em;
+    background-color:hsl(0,0%,100%);
+    position: absolute;
+    margin-top: 1.5em;
+    margin-left: 11em;
+}
+
+#third-text{
+    font-size: 0.8em;
+    font-family: 'Rubik',sans-serif;
+    margin-inline-start: 0.6em;
+    margin-block-start: 0.5em;
+    color: hsl(271,15%,43%);
+}
+
+.four-chatbox{
+    border-top-left-radius: 1.1em;
+    border-top-right-radius: 1.2em;
+    border-bottom-left-radius: 1.1em;
+    border-bottom-right-radius: 0.2em;
+    height: 2.2em;
+    width: 7.8em;
+    background-color:hsl(0,0%,100%);
+    position: absolute;
+    margin-top: 5em;
+    margin-left: 14.9em;
+}
+
+#four-text{
+    font-size: 0.8em;
+    font-family: 'Rubik',sans-serif;
+    margin-inline-start: 0.9em;
+    margin-block-start: 0.7em;
+    color:hsl(271,15%,43%);
+
+}
+
+.five-chatbox{
+    border-top-left-radius: 1.2em;
+    border-top-right-radius: 1.1em;
+    border-bottom-left-radius: 0.2em;
+    border-bottom-right-radius: 1.1em;
+    height: 3.4em;
+    width: 12.3em;
+    background-color: hsl(206,6%,79%);
+    position: absolute;
+    margin-top: 7.8em;
+    margin-left: 1.7em;
+
+}
+
+#five-text{
+    font-family:'Rubik',sans-serif;
+    color:hsl(276,55%,52%);
+    font-size: 0.8em;
+    margin-block-start: 0.4em;
+    margin-inline-start:0.8em;
+    margin-inline-end: 1.1em;
+}
+
+.six-chatbox{
+    border-top-left-radius: 1.2em;
+    border-top-right-radius: 1.1em;
+    border-bottom-left-radius: 0.2em;
+    border-bottom-right-radius: 1.1em;
+    height: 3.4em;
+    width: 14.7em;
+    background:linear-gradient(90deg, hsl(293,100%,63%) ,hsl(264,100%,61%));
+    position: absolute;
+    margin-top: 11.8em;
+    margin-left: 1.7em;
+}
+
+.radio-button1{
+    width: 1.2em;
+    margin-inline-start: 0.6em;
+    margin-block-start: 0.9em;
+    position: absolute;
+    height: 1.2em;
+    border-radius: 50%;
+    border: 2px solid hsl(289,100%,72%);
+
+}
+
+#six-text{
+    font-family:'Rubik',sans-serif;
+    font-size: 0.8em;
+    margin-block-start: 1.6em;
+    margin-inline-start:3.4em;
+    color:white;
+    font-weight: 400;
+    position: absolute;
+}
+
+#num{
+    font-family:'Rubik',sans-serif;
+    font-size: 1.4em;
+    color:white;
+    margin-block-start: 0.6em;
+    margin-inline-start: 7.5em;
+    font-weight: 700;
+    position: absolute;
+}
+
+.seven-chatbox{
+    border-top-left-radius: 1.2em;
+    border-top-right-radius: 1.1em;
+    border-bottom-left-radius: 0.2em;
+    border-bottom-right-radius: 1.1em;
+    height: 3.4em;
+    width: 14.7em;
+    background:linear-gradient(90deg, hsl(293,100%,63%) ,hsl(264,100%,61%));
+    position: absolute;
+    margin-top: 16em;
+    margin-left: 1.7em;
+
+}
+
+.radio-button2{
+    width: 1.2em;
+    margin-inline-start: 0.6em;
+    margin-block-start: 0.9em;
+    position: absolute;
+    height: 1.2em;
+    border-radius: 50%;
+    border: 2px solid hsl(289,100%,72%);
+
+}
+
+#seven-text{
+    font-family:'Rubik',sans-serif;
+    font-size: 0.8em;
+    margin-block-start: 1.6em;
+    margin-inline-start:3.4em;
+    color:white;
+    font-weight: 400;
+    position: absolute;
+}
+
+#num2{
+    font-family:'Rubik',sans-serif;
+    font-size: 1.4em;
+    color:white;
+    margin-block-start: 0.6em;
+    margin-inline-start: 7.5em;
+    font-weight: 700;
+    position: absolute;
+}
+
+.last-box{
+    height:3.7em;
+    width: 20.7em;
+    background-color: white;
+    margin-top:21em;
+    margin-left:1.7em;
+    border-radius: 2.4em;
+
+}
+
+#last-text{
+    font-family: 'Rubik',sans-serif;
+    font-size: 0.9em;
+    color: hsl(206,6%,79%);
+    font-weight: 400;
+    margin-left: 2em;
+    margin-top: 1.6em;
+    position: absolute;
+}
+
+.send-box{
+    height: 3em;
+    width: 3em;
+    background-color:hsl(271,15%,43%);
+    margin-top: 0.3em;
+    margin-left: 17.3em;
+    border-radius: 2em;
+    position: absolute;
+
+}
+
+.outside-text{
+    height: 12em;
+    width: 38em;
+    margin-top: -37.9em;
+    margin-left: 60em;
+
+}
+
+#heading{
+    font-family: 'Rubik',sans-serif;
+    color:hsl(271,36%,24%);
+    font-weight: 600;
+    font-size: 2.7em;
+    
+}
+
+#paragraph{
+    font-size: 1.6em;
+    font-family: 'Rubik',sans-serif;
+    position: absolute;
+    margin-block-start: -0.9em;
+    margin-inline-start: 0;
+    margin-inline-end: 8.9em;
+
+}
